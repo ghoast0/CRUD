@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface ItemService {
     Item addItem(Item item);
-    List<Item> getALlItems();
+    List<Item> getAllItems();
     List<Item> searchItems(String text);
     List<Item> filterItems(double price);
     List<Item> filterItems2(Long stock);
