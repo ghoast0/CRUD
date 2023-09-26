@@ -15,16 +15,16 @@ import lombok.Setter;
 public class Item {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "Id")
-    private Long Id;
+    @Column(name = "id")
+    private Long id;
 
-    @Column(name = "ItemName")
-    private String ItemName;
+    @Column(name = "itemName")
+    private String itemName;
 
-    @Column(name = "Price")
-    private double Price;
+    @Column(name = "price")
+    private double price;
 
-    @Column(name = "Stock")
-    private long Stock;
+    @Column(name = "stock")
+    private Long stock;
 
 }
