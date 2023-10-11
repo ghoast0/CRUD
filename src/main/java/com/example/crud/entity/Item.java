@@ -26,5 +26,4 @@ public class Item {
 
     @Column(name = "stock")
     private Long stock;
-
 }
